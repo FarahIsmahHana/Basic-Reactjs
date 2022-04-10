@@ -1,14 +1,14 @@
 import React from "react";
-import Card from "./Component/Card/Card";
-import Footer from "./Component/Footer/Footer";
-import Header from "./Component/Header/Header";
+import Tengah from "./StylingComponent-Reactjs/Card/Tengah";
+import Bawah from "./StylingComponent-Reactjs/Footer/Bawah";
+import Atas from "./StylingComponent-Reactjs/Header/Atas";
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <Card />
-      <Footer />
+      <Atas />
+      <Tengah />
+      <Bawah />
     </div>
   );
 };
